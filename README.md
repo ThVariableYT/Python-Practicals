@@ -21,7 +21,7 @@ Open a terminal (or command‑prompt) and run the following command:
 ```bash
 git clone https://github.com/ThVariableYT/Python-Practicals.git
 ```
-##Or
+## Or
 - You can click on the green "Code" button shown below:
   <img width="1243" height="563" alt="image" src="https://github.com/user-attachments/assets/9e348d8a-df72-4231-a719-0ff230804a5d" />
 - Then click on the "Download ZIP" button as shown below:
