@@ -24,7 +24,9 @@ git clone https://github.com/ThVariableYT/Python-Practicals.git
 ## Or
 - You can click on the green "Code" button shown below:
   <img width="1243" height="563" alt="image" src="https://github.com/user-attachments/assets/9e348d8a-df72-4231-a719-0ff230804a5d" />
+
 - Then click on the "Download ZIP" button as shown below:
+  
   <img width="397" height="293" alt="image" src="https://github.com/user-attachments/assets/7365b70b-3232-487a-8a15-734fae1c7de7" />
 - Extract the zip file and open it with Visual Studio Code.
 
