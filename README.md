@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/23672744/README.md)
 # Python‑Practicals
 
 A collection of practical Python projects, exercises and scripts maintained by ThVariableYT.
