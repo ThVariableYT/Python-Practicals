@@ -1,0 +1,11 @@
+import tkinter as tk
+w=tk.Tk()
+w.minsize(300,100)
+w.title("Entry widget")
+tk.Label(w,text="Login page").grid(row=0,column=2)
+tk.Label(w,text="Username", bg="cyan").grid(row=2, column=1)
+tk.Entry(w,bd=5).grid(row=2,column=2)
+tk.Label(w,text="Password", bg="cyan").grid(row=3,column=1)
+tk.Entry(w,show="#", bd=5 ).grid(row=3,column=2)
+tk.Button(w,text="Login", bd=5, bg="cyan", fg="red").grid(row="4", column=1)
+w.mainloop()
