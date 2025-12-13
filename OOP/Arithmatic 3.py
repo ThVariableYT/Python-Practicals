@@ -30,4 +30,4 @@ elif(c=="sub"):
 elif(c=="multi"):
     al.multiplication(a,b)
 elif(c=="div"):
-    a1.division(a,b)
+ al.division(a,b)
