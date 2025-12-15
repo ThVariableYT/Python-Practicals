@@ -9,7 +9,7 @@ def tablefinder():
     
 #                 # enter = int(enter)
 #                 limit = enter*10+1
-                m=1
+                    m=1
             for i in range(enter,limit,enter):
                             tk.Label(win,enter , " × " ,m, " = " , i)
                             m += 1
