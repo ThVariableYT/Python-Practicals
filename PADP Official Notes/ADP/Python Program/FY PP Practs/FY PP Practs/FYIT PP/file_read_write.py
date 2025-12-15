@@ -1,0 +1,11 @@
+file=open("abc.txt","w")
+file.write("Hi This is Line 1\n")
+file.write("Hi This is Line 2\n")
+file.write("Hi This is Line 3\n")
+file.write("Hi This is Line 4\n")
+file.close()
+file=open("abc.txt","r")
+file1=open("pqr.txt","w")
+for line in file:
+  file1.write(line)
+file1.close()

@@ -1,0 +1,10 @@
+import mysql.connector as mysql
+conn = mysql.connect(user='root', password='scott',host='127.0.0.1',database='python')
+c=conn.cursor()
+c.execute("insert into customer values(2,'xyz',2743728,4242)")
+c.execute("insert into customer values(3,'cbs',2742728,5525)")
+c.execute("insert into customer values(4,'eyz',2743328,52662)")
+conn.commit()
+c.execute("select * from customer")
+print(c.fetchall())
+conn.close()

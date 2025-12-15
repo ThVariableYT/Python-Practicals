@@ -1,0 +1,35 @@
+1. Display the name of the file and mode in which it is opened.
+file=open("story.txt","r")
+print("Name of the file: ",file.name)
+print("Mode in which file is opened: ",file.mode)
+file.close()
+
+2. Append a Moral at the end of file.
+file=open("story.txt","a")
+file.write("\n Moral:-------")
+file.close()
+
+3. Display the story line by line.
+file=open("story.txt","r")
+print(file.readlines())
+file.close()
+
+4. Retrieve the position of the line where moral starts.
+file=open("story.txt","r")
+file.seek(---)
+print(file.tell())
+print(file.readlines())
+file.close()
+
+5.Rename the file to the name of the story which you have written.
+import os
+os.rename("story.txt","----.txt")
+
+6. Delete the contents of the file.
+file=open("----.txt","w")
+file.truncate()
+file.close()
+
+7. Delete the file.
+import os
+os.remove("----.txt") 

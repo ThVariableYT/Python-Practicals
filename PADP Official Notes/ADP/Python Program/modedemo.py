@@ -1,0 +1,5 @@
+file=open("story.txt","r")
+print("File name:",file.name)
+print("Mode opened in:",file.mode)
+file.close()
+print("File closed:",file.closed)

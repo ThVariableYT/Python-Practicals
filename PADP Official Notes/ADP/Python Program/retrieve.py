@@ -1,0 +1,5 @@
+f=open("story.txt","r")
+f.seek(709)
+print(f.tell())
+print(f.readlines())
+f.close()

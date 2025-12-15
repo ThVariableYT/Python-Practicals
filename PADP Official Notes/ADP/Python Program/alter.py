@@ -1,0 +1,17 @@
+import mysql.connector as mysql
+conn = mysql.connect(user='root', password='scott',host='127.0.0.1',
+                     database='python')
+c=conn.cursor()
+c.execute("alter table customer modify custid int(15)")
+conn.commit()
+c.execute("alter table customer add phoneno int(10)")
+conn.commit()
+c.execute("alter table customer add primary key(custid)")
+conn.commit()
+c.execute("alter table customer drop primary key")
+conn.commit()
+c.execute("alter table customer drop column phoneno")
+conn.commit()
+c.execute("describe customer")
+print(c.fetchall())
+conn.close()

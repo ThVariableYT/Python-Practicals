@@ -1,0 +1,10 @@
+import tkinter as tk
+win=tk.Tk()
+win.title("Basic Form")
+frame=tk.Frame(win)
+lbl=tk.Label(frame,text="Firstname").grid(column=1, row=1)
+ent=tk.Entry(frame).grid(column=2, row=1)
+lbl1=tk.Label(frame,text="Lastname").grid(column=1, row=2)
+ent1=tk.Entry(frame).grid(column=2, row=2)
+frame.pack()
+win.mainloop()
