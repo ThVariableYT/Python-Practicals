@@ -15,14 +15,14 @@ class Bank:
   def deposit():
      print("enter amount to be deposited")
      amt=int(input())
-     initial_bal=initial_bal+self.amt
+     self.initial_bal=self.initial_bal+self.amt
      print("updated balance is",Bank.initial_bal)
   def withdraw(self):
      print("enter amount to be withdraw")
      self.amt=int(input())
-     initial_bal=initial_bal-self.amt
+     self.initial_bal=self.initial_bal-self.amt
      print("updated balance is",Bank.initial_bal)
-  b1=Bank_op()
+  b1=Bank()
   b1.accept()
   b1.deposit()
   b1.withdraw()
