@@ -1,0 +1,13 @@
+x, y = 2, 3
+print("\nArithmetic Operations")
+print("x + y ", x + y, "__add__", x.__add__(y))
+print("x - y", x - y, "__sub__", x.__sub__(y))
+print("x * y", x * y, "__mul__", x.__mul__(y))
+print("x / y", x / y, "__truediv__", x.__truediv__(y))
+print("x ** y ", x** y, "__pow__", x.__pow__(y))
+print("x % y", x% y, "__mod__", x.__mod__(y))
+print("\nRelational Operations")
+print("x == y", x == y, "__eq__", x.__eq__(y))
+print("x != y", x != y, "__ne__", x.__ne__(y))
+print("x >= y", x >= y, "__ge__", x.__ge__(y))
+print("x <= y", x <= y, "__le__", x.__le__(y))
