@@ -10,5 +10,5 @@ class dept(employee):
         self.a=(salary+incentive)
         print(self.temp)
         print("Total salary in derive class:",self.a)
-        e=dept()
-        e.add(5555,7775)
+e=dept()
+e.add(5555,7775)
