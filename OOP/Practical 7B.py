@@ -1,16 +1,17 @@
-#7. b To implement polymorphism using method overriding in Python and to access the base class method using inheritance.
-class Employee:
+class employee:
     def add(self, salary, incentive):
-        total=salary+incentive
-        increment = int(input("Enter the increament amount:"))
-        print("Total salary in base class:",total+increment)
-class Dept(Employee):
-    message= "I am a member of department class"
-
+        self.a=(salary+incentive)
+        increment=int(input("Enter the incrememnt income"))
+        print("Total salary in the base class",self.a+incentive)
+        
+class dept(employee):
+    temp=("I am a member of the department class.")
+    
     def add(self, salary, incentive):
-        total=salary+incentive 
-        print(self.message)
-        print("Total salary in derived class:", total)
-        super().add(salary, incentive)
-d = Dept()
-d.add(5575, 9505)
+        self.a=(salary+incentive)
+        print(self.temp)
+        print("Total salary in derived class:",self.a)
+        super(dept,self).add(salary,incentive)
+        
+e=dept()
+e.add(5575, 9505)
